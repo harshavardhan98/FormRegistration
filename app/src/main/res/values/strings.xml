@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FormRegistration</string>
+    <string-array name="year">
+        <item>First  Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+    </string-array>
+</resources>
