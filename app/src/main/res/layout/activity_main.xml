@@ -52,7 +52,7 @@
         android:inputType="number" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/sp1"
         android:layout_width="match_parent"
         android:layout_height="38dp"
         android:layout_alignParentStart="true"
@@ -62,6 +62,7 @@
         android:entries="@array/year" />
 
     <RadioGroup
+        android:id="@+id/rg1"
         android:layout_width="347dp"
         android:layout_height="128dp"
         android:layout_above="@+id/tv3"
@@ -122,7 +123,7 @@
         android:textColor="@color/colorAccent" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/cb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -134,16 +135,16 @@
         android:text="CSE" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/cb2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/checkBox"
+        android:layout_alignBottom="@+id/cb1"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-1dp"
         android:text="IT" />
 
     <Button
-        android:id="@+id/gr"
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
